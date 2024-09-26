@@ -1,16 +1,43 @@
-## Hi there 👋
+<h1>Hallo I'm Kaitlan </h1>
 
-<!--
-**falskNorth/falskNorth** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+<h3> Welcome to my github, have a look around!:wave::smile: </h3>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+```java 
+import googling.how.to.%%%
+import stackoverflow
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) {
+        String player = "Kaitlan";
+        String[] skills = { "Java", "Unity", "C++", "C#", "HTML", "CSS", "Javascript", "Python" };
+
+        LocalDate KaitlanLevel = LocalDate.of(2002, 08, 07);
+
+        int ageLevel = calculateAgeLevel(KaitlanLevel);
+
+        System.out.println("Hello world!");
+        System.out.println("My name is " + player + " my level is: ");
+        System.out.println("Level " + ageLevel + "!");
+        System.out.println("◑____________◑");
+    }
+
+    public static int calculateAgeLevel(LocalDate birthDate) {
+        LocalDate today = LocalDate.now();
+        int yearDiff = today.getYear() - birthDate.getYear();
+        if (today.getMonthValue() < birthDate.getMonthValue() ||
+                (today.getMonthValue() == birthDate.getMonthValue() && today.getDayOfMonth() < birthDate.getDayOfMonth())) {
+            yearDiff--;
+        }
+        return yearDiff;
+    }
+}
+```
+
+<p> 
+<a href="https://www.linkedin.com/in/kaitlan-berg-14517b203/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"  alt="linkedin"
+ </a>
+</p>
