@@ -1,7 +1,7 @@
 <h1>Hallo I'm Kaitlan </h1>
 
 
-<h3> Welcome to my github, have a look around!:wave::smile: </h3>
+<h3> Welcome to my github, have a look around! 👋👋 </h3>
 
 
 ```java 
