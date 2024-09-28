@@ -7,7 +7,7 @@
 ```java 
 import googling.how.to.%%%
 import stackoverflow
-import java.util.Arrays;
+import praying.for.no.errors
 
 public class Main {
     public static void main(String[] args) {
